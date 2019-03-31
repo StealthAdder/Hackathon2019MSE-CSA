@@ -1,0 +1,60 @@
+body{
+    background: lightblue;
+}
+
+.container{
+    width:70%;
+    margin:40px auto; /*top and bottom 20px and right and left is auto*/
+    overflow: auto;
+    border-radius: none;
+    font-size: auto;
+}
+
+
+section{
+    display: flex;
+    padding: 20px;
+    flex-direction: column
+}
+
+div{
+    margin: auto;    
+}
+
+input{
+    width: 50px;
+    height: 20px;
+    margin: 4px;/*change the zoom of the group*/
+    
+}
+
+.hide{
+    display: none;
+}
+
+@media only screen and (max-width: 900px){/*for mobile device*/
+    .container{
+        width: 90%;
+    }
+}
+
+section2{
+    display: flex;
+    padding: 25px;
+    flex-direction: row;
+}
+div2{
+    margin: 5px;    
+}
+
+.container2{
+    width:70%;
+    margin:30px auto; /*top and bottom 20px and right and left is auto*/
+    overflow: auto;
+    border-radius: none;
+}
+
+button2{
+    width: 60px; /*left to right*/
+    height: 20px;/*width*/
+}
